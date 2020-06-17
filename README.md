@@ -1,2 +1,3 @@
 # Nonso-Bootcamp
-500NGDEV4ETH
+500NGDEV4ETH mini bootcamp
+
