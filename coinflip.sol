@@ -37,6 +37,7 @@ contract CoinFlip {
 
 //Random events on the blockchain are deterministic - those events could be mimicked
 //To hack coinflip we create another similiar contract with the intention of recreating the random event
+//the victim address is your instance address
 
 contract HackCoinFlip{
     using SafeMath for uint256;
