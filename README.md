@@ -1,3 +1,4 @@
-# Nonso-Bootcamp
-500NGDEV4ETH mini bootcamp
+# ethernaut
+ethernaut-ctf by openzeppellin
+https://ethernaut.openzeppelin.com/
 
