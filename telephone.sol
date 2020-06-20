@@ -16,12 +16,12 @@ contract Telephone {
 }
 
 //If we want to claim ownership of this contract we need to call the changeOwner function,
-//this would have been easy except for that if clause :) bzzzzzzzzhhhh
+//this would have been easy except for that if clause 😤😤😤😤 bzzzzzzzzhhhh;
 //Notice tx.origin!, this indicates the address that gave origin to the whole transaction and it can only be an EOA. 
 //in order to meet the requirement of the if clause we have to call the the changeOwner function from a proxy contract
 //Note: victim address is the instance address
 
-
+//Deploy on remix
 contract HackTelephone {
     Telephone tel;
     
