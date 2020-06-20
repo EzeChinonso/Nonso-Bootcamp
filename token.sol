@@ -22,7 +22,7 @@ contract Token {
 }
 
 
-//Phewww....This one took me a while :)
+//Phewww 🤯🤯🤯....This one took me a while :)
 //It seems solidity integers are not actually integers
 //Note: The difference between two uint, is another uint, that is the difference will always be equal or greater than zero! 
 //Thus, the condition balances[msg.sender] - _value >= 0 will always evaluate to true
