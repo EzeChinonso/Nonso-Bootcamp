@@ -14,7 +14,7 @@ contract Force {/*
 //the goal is to make this contract have a balance greater than zero
 //to do this we have to forcefully send money to the contract
 //for us to achieve this we create another proxy contract with value and use a hidden solidity feature selfdestruct
-//selfdestruct allows us to destroy a contract. When called it destroys a contract and automatically sends any value in the contract to the owner of the SC
+//selfdestruct allows us to destroy a contract. When called it destroys a contract and automatically sends any value🤑🤑 in the contract to the owner of the SC
 //I know its starting to make sense now.....🤓🤓
 //all we have to do is make the owner of our proxy SC our force SC instance address.
 
