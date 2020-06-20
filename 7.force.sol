@@ -19,10 +19,10 @@ contract Force {/*
 //all we have to do is make the owner of our proxy SC our force SC instance address.
 
 //Deploy on Remix
-contract RecieveCashWithForce{
+contract GiveWithForce{
     address payable owner;
     
-    constructor() public payable{ //use the Value filed of RemixIDE to send Ether at creation of the contract
+    constructor() public payable{ //payable allows this contract to recieve value
     }
     
     //call setOwner with your instance address as input 
