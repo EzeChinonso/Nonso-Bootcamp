@@ -34,6 +34,7 @@ contract Delegation {
 //The first four bytes of the call data for a function call specifies the function to be called.
 //We deploy the contract below to get first four bytes of the Keccak-256 (SHA-3) hash of the signature of the function.
 
+//Deploy on Remix
 contract Hash {
     function getHash () public pure returns (bytes4) {
         return bytes4(keccak256("pwn()"));
