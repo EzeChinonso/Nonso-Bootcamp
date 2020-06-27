@@ -1,6 +1,6 @@
 pragma solidity ^0.4.18;
 
-
+//interface allows different contracts to communicate with each other
 interface Building {
   function isLastFloor(uint) view public returns (bool);
 }
